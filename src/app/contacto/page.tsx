@@ -1,5 +1,9 @@
 function Contacto() {
-  return <h1>contacto</h1>
+  return (
+    <div className="panel">
+      contacto
+    </div>
+  )
 }
 
 export default Contacto

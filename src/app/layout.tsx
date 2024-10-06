@@ -31,8 +31,7 @@ export default function RootLayout({ children }: {
           </div>
           <div className="menu">
             <Menu className={kiwi.className}></Menu>
-          </div>          <div className="panel">
-            {children}</div>
+          </div>{children}
         </div>
         <div className='footer'>© Pablo ExeQ</div>
       </body>

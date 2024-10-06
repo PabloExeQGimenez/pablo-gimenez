@@ -1,9 +1,6 @@
-
-
 const HomePage = () => {
   return (
     <>
-
       Home
     </>
 

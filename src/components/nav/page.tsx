@@ -8,9 +8,9 @@ export const Menu: React.FC<MenuProps> = ({ className }) => {
   return (
     <div className={className}>
       <ul>
-        <li><Link href={"/"}>Home</Link ></li>
-        <li><Link href={"/proyectos"}>Proyectos</Link></li>
-        <li><Link href={"/contacto"}>Contacto</Link></li>
+        <li><Link className="link" href={"/"}>Home</Link ></li>
+        <li><Link className="link" href={"/proyectos"}>Proyectos</Link></li>
+        <li><Link className="link" href={"/contacto"}>Contacto</Link></li>
       </ul>
     </div>
   )
