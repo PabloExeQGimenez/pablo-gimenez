@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template:
+    /*=============plantilla pc================================*/
+    " nombre nombre nombre panel panel panel panel panel " 4rem
+    " . . . panel panel panel panel panel "
+    " menu . . panel panel panel panel panel"
+    / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /*=========================================================*/
+}
+
+.nombre {
+  grid-area: nombre;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.panel {
+  grid-area: panel;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
